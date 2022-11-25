@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>CodeWay</title>
+  <title>TensorFlow Custom Model Run In Web With TensorflowJs | CodeWay</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Learning Log of code..">
-<meta property="og:type" content="website">
-<meta property="og:title" content="CodeWay">
-<meta property="og:url" content="http://xementor.github.io/ih/index.html">
+  <meta name="description" content="Keras Model In Web TensorFlowJsConvert Keras Model(.h5) to model.json with TensorflowjsFrom any python model, first you can save the model as .h5 format. When you have .h5 model. Then you can install">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TensorFlow Custom Model Run In Web With TensorflowJs">
+<meta property="og:url" content="http://xementor.github.io/ih/2022/11/25/tensorflow-custom-model-run-in-web-with-tensorflowjs/index.html">
 <meta property="og:site_name" content="CodeWay">
-<meta property="og:description" content="Learning Log of code..">
+<meta property="og:description" content="Keras Model In Web TensorFlowJsConvert Keras Model(.h5) to model.json with TensorflowjsFrom any python model, first you can save the model as .h5 format. When you have .h5 model. Then you can install">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-11-25T17:24:36.000Z">
+<meta property="article:modified_time" content="2022-11-25T18:10:36.361Z">
 <meta property="article:author" content="IH Zonaid">
-<meta property="article:tag" content="Coding, Programing, Bug">
+<meta property="article:tag" content="tfjs, tensorflow, ML">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/ih/atom.xml" title="CodeWay" type="application/atom+xml">
@@ -76,9 +78,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-tensorflow-custom-model-run-in-web-with-tensorflowjs" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-tensorflow-custom-model-run-in-web-with-tensorflowjs" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/ih/2022/11/25/tensorflow-custom-model-run-in-web-with-tensorflowjs/" class="article-date">
   <time class="dt-published" datetime="2022-11-25T17:24:36.000Z" itemprop="datePublished">2022-11-25</time>
@@ -91,8 +91,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/ih/2022/11/25/tensorflow-custom-model-run-in-web-with-tensorflowjs/">TensorFlow Custom Model Run In Web With TensorflowJs</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      TensorFlow Custom Model Run In Web With TensorflowJs
     </h1>
   
 
@@ -140,188 +140,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-algo-post-template-to-follow" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/ih/2022/11/21/algo-post-template-to-follow/" class="article-date">
-  <time class="dt-published" datetime="2022-11-21T01:20:09.000Z" itemprop="datePublished">2022-11-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/ih/2022/11/21/algo-post-template-to-follow/">algo-post-template-to-follow</a>
-    </h1>
+    <a href="/ih/2022/11/21/algo-post-template-to-follow/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">algo-post-template-to-follow</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h2 id="Approach-1-Brute-Force"><a href="#Approach-1-Brute-Force" class="headerlink" title="Approach 1: Brute Force"></a>Approach 1: Brute Force</h2><h3 id="Intuition"><a href="#Intuition" class="headerlink" title="Intuition"></a>Intuition</h3><hr>
-<p>Because a sequence could start at any number in nums, we can exhaust the entire search space by building as long a sequence as possible from every number.</p>
-<h3 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h3><hr>
-<p>The brute force algorithm does not do anything clever - it just considers each number in nums, attempting to count as high as possible from that number using only numbers in nums. After it counts too high (i.e. currentNum refers to a number that nums does not contain), it records the length of the sequence if it is larger than the current best. The algorithm is necessarily optimal because it explores every possibility.</p>
-<h3 id="Complexity-Analysis"><a href="#Complexity-Analysis" class="headerlink" title="Complexity Analysis"></a>Complexity Analysis</h3><hr>
-<p><strong>Time complexity</strong> : O(n^3)O(n3).</p>
-<p>The outer loop runs exactly nn times, and because currentNum increments by 1 during each iteration of the while loop, it runs in O(n)O(n) time. Then, on each iteration of the while loop, an O(n)O(n) lookup in the array is performed. Therefore, this brute force algorithm is really three nested O(n)O(n) loops, which compound multiplicatively to a cubic runtime.</p>
-<p><strong>Space complexit</strong>y : O(1)O(1).</p>
-<p>The brute force algorithm only allocates a handful of integers, so it uses constant additional space.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xementor.github.io/ih/2022/11/21/algo-post-template-to-follow/" data-id="clawtpz0w0000a4vq8s298wu0" data-title="algo-post-template-to-follow" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-first-writting" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/ih/2022/11/11/first-writting/" class="article-date">
-  <time class="dt-published" datetime="2022-11-11T17:06:32.000Z" itemprop="datePublished">2022-11-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/ih/2022/11/11/first-writting/">first-writting</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>It is first writting I’m writting here?</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xementor.github.io/ih/2022/11/11/first-writting/" data-id="clacr8eqt0001e8vqbryb56xe" data-title="first-writting" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Hexo" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/ih/2022/11/11/Hexo/" class="article-date">
-  <time class="dt-published" datetime="2022-11-11T17:01:55.000Z" itemprop="datePublished">2022-11-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/ih/2022/11/11/Hexo/">Hexo</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Where I get the Idea of Hexo Github? This is the topic of today’s blog. Lets first explore the desing</p>
-<h2 id="It-is-the-second-Heading"><a href="#It-is-the-second-Heading" class="headerlink" title="It is the second Heading"></a>It is the second Heading</h2><p>I’m litte bit confused As every section should minimum two line gap</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xementor.github.io/ih/2022/11/11/Hexo/" data-id="clacr8eqa0000e8vq6e8m7hd0" data-title="Hexo" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/ih/2022/11/11/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2022-11-11T16:50:13.347Z" itemprop="datePublished">2022-11-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/ih/2022/11/11/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xementor.github.io/ih/2022/11/11/hello-world/" data-id="clacqnpmb0000msvq5irb994z" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>

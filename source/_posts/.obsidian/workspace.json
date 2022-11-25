@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "3cca95d22a06b7c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a61a97fbb387d83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18ae9b7570a16cac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tensorflow-custom-model-run-in-web-with-tensorflowjs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dcf67541befb373",
+    "type": "split",
+    "children": [
+      {
+        "id": "c168bbd5b76840e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18fb6e2d8c4fef85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e7c9423043cdeac3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28c60c83a185b0fb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abbcf012d02a0b15",
+    "type": "split",
+    "children": [
+      {
+        "id": "02d193ebb67d4c65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "677322a07cd303ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tensorflow-custom-model-run-in-web-with-tensorflowjs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a916e9d2c93176f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tensorflow-custom-model-run-in-web-with-tensorflowjs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d47f4c0289c522a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f1afa67087e3dd17",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tensorflow-custom-model-run-in-web-with-tensorflowjs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "18ae9b7570a16cac",
+  "lastOpenFiles": []
+}
